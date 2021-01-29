@@ -8,22 +8,40 @@ namespace finalProject
     {
         static void Main(string[] args)
         {
-            
+            EmployeeMaker.CreateEmployees(2);
         }
     }
 
     public static class EmployeeMaker
     {
+        // Create x amount of Employees
         public static List<Employee> CreateEmployees(int amount)
         {
             List<Employee> employees = new List<Employee>();
             for (int i = 0; i < amount; i++)
             {
+                // get user data
                 Console.WriteLine($"Please enter data for employee {i+1}/{amount}");
                 Console.WriteLine("-----------------------------------------------");
-                Console.WriteLine("Enter employee ID: ");
-                int ID
+                Console.WriteLine("Enter Employee ID: ");
+                string id = Console.ReadLine();
+                Console.WriteLine($"Enter the hourly rate for Employee {id}: ");
+                double rate = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Hours worked?: ");
+                double totalHours = double.Parse(Console.ReadLine());
+                Console.WriteLine("State work was performed in?: ");
+                string state = Console.ReadLine();
+
+                // create an employee and add to list of employees
+                Employee employee = new Employee(id, totalHours, rate, state);
+                employees.Add(employee);
+                // Confirmation msg
+                Console.WriteLine($"Success!");
+                Console.WriteLine($"Created employee {employee.ID} | Hours worked: {employee.HoursWorked} | Rate: {employee.RatePerHour} | State: {employee.State}");
+                Console.WriteLine("-----------------------------------------------");
             }
+
+            return employees;
         }
     }
 
@@ -46,30 +64,26 @@ namespace finalProject
             set { hoursWorked = value; }
             get { return hoursWorked; }
         }
+        public double RatePerHour
+        {
+            set { ratePerHour = value; }
+            get { return ratePerHour; }
+        }
+        public string State
+        {
+            set { state = value; }
+            get { return state; }
+        }
         // Read Only Properties: get;
         public double Tax { get; }
+
+        // Constructor
+        public Employee(string id, double hoursWorked, double ratePerHour, string state)
+        {
+            ID = id;
+            HoursWorked = hoursWorked;
+            RatePerHour = ratePerHour;
+            State = state;
+        }
     }
 }
-
-
-//Instantiate each element of array: 
-//for (int i = 0; i < employees.Length; i++)
-//{
-//    employees[i] = new Employee();
-//}
-
-//Get employee info for each employee:
-//for (int i = 0; i < employees.Length; i++)
-//{
-//    Console.WriteLine($"Employee {i + 1}: " +
-//        $"please enter employee ID: ");
-//    employees[i].ID = Int32.Parse(Console.ReadLine());
-//    Console.WriteLine($"Employee {i + 1}:" +
-//        $" please enter hourly rate: ");
-//    employees[i].hourlyRate = Decimal.Parse(Console.ReadLine());
-//    Console.WriteLine(
-//        $"Employee {i + 1}: please enter number of hours worked: ");
-//    employees[i].numOfHoursWorked = float.Parse(Console.ReadLine());
-//    Console.WriteLine($"Employee {i + 1}: please enter state: ");
-//    employees[i].state = Console.ReadLine();
-//}

@@ -1,0 +1,13 @@
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\finalProject.exe
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\finalProject.deps.json
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\finalProject.runtimeconfig.json
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\finalProject.runtimeconfig.dev.json
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\finalProject.dll
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\finalProject.pdb
+C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.csprojAssemblyReference.cache
+C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.AssemblyInfo.cs
+C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.dll
+C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.pdb
+C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.genruntimeconfig.cache
