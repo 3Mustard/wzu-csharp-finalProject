@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matt\\source\\repos\\finalProject\\finalProject\\finalProject.csproj": {}
+    "C:\\Users\\Matt\\source\\repos\\finalProject\\ContractorPayrollDemo2\\ContractorPayrollDemo2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matt\\source\\repos\\finalProject\\finalProject\\finalProject.csproj": {
+    "C:\\Users\\Matt\\source\\repos\\finalProject\\ContractorPayrollDemo2\\ContractorPayrollDemo2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matt\\source\\repos\\finalProject\\finalProject\\finalProject.csproj",
-        "projectName": "finalProject",
-        "projectPath": "C:\\Users\\Matt\\source\\repos\\finalProject\\finalProject\\finalProject.csproj",
+        "projectUniqueName": "C:\\Users\\Matt\\source\\repos\\finalProject\\ContractorPayrollDemo2\\ContractorPayrollDemo2.csproj",
+        "projectName": "ContractorPayrollDemo2",
+        "projectPath": "C:\\Users\\Matt\\source\\repos\\finalProject\\ContractorPayrollDemo2\\ContractorPayrollDemo2.csproj",
         "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matt\\source\\repos\\finalProject\\finalProject\\obj\\",
+        "outputPath": "C:\\Users\\Matt\\source\\repos\\finalProject\\ContractorPayrollDemo2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -43,12 +43,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "System.Runtime.Extensions": {
-              "target": "Package",
-              "version": "[4.3.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ScYUWi2tEQhnkYcNr5vRFxHRprEIGgfTOggoh1bLohBU7bYARgfat0IYtjs3yNCdpRzyx2T+f0FHNxQSFC3BPA==",
+  "dgSpecHash": "PvSf7k8D5lbsLcNTZBny9f4plTnzHrjrKNA7g+x5cw0xaRjpRdUiwXNLtlTzngRUkT2hi1M25jHODj/LkB88eA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matt\\source\\repos\\finalProject\\finalProject\\finalProject.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.runtime.extensions\\4.3.1\\system.runtime.extensions.4.3.1.nupkg.sha512"
+  ],
   "logs": []
 }
