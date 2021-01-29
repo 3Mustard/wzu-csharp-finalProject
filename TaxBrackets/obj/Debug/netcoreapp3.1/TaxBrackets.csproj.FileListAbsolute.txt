@@ -1,0 +1,9 @@
+C:\Users\Matt\source\repos\finalProject\TaxBrackets\bin\Debug\netcoreapp3.1\TaxBrackets.deps.json
+C:\Users\Matt\source\repos\finalProject\TaxBrackets\bin\Debug\netcoreapp3.1\TaxBrackets.dll
+C:\Users\Matt\source\repos\finalProject\TaxBrackets\bin\Debug\netcoreapp3.1\TaxBrackets.pdb
+C:\Users\Matt\source\repos\finalProject\TaxBrackets\obj\Debug\netcoreapp3.1\TaxBrackets.csprojAssemblyReference.cache
+C:\Users\Matt\source\repos\finalProject\TaxBrackets\obj\Debug\netcoreapp3.1\TaxBrackets.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\finalProject\TaxBrackets\obj\Debug\netcoreapp3.1\TaxBrackets.AssemblyInfo.cs
+C:\Users\Matt\source\repos\finalProject\TaxBrackets\obj\Debug\netcoreapp3.1\TaxBrackets.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\finalProject\TaxBrackets\obj\Debug\netcoreapp3.1\TaxBrackets.dll
+C:\Users\Matt\source\repos\finalProject\TaxBrackets\obj\Debug\netcoreapp3.1\TaxBrackets.pdb

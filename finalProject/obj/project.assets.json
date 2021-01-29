@@ -40,6 +40,40 @@
         "compile": {
           "ref/netstandard1.5/System.Runtime.Extensions.dll": {}
         }
+      },
+      "Employee/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Employee.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Employee.dll": {}
+        }
+      },
+      "EmpoyeeFactory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Employee": "1.0.0",
+          "TaxDictionary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmpoyeeFactory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmpoyeeFactory.dll": {}
+        }
+      },
+      "TaxDictionary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TaxDictionary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaxDictionary.dll": {}
+        }
       }
     }
   },
@@ -246,10 +280,27 @@
         "system.runtime.extensions.4.3.1.nupkg.sha512",
         "system.runtime.extensions.nuspec"
       ]
+    },
+    "Employee/1.0.0": {
+      "type": "project",
+      "path": "../Employee/Employee.csproj",
+      "msbuildProject": "../Employee/Employee.csproj"
+    },
+    "EmpoyeeFactory/1.0.0": {
+      "type": "project",
+      "path": "../EmpoyeeFactory/EmpoyeeFactory.csproj",
+      "msbuildProject": "../EmpoyeeFactory/EmpoyeeFactory.csproj"
+    },
+    "TaxDictionary/1.0.0": {
+      "type": "project",
+      "path": "../TaxDictionary/TaxDictionary.csproj",
+      "msbuildProject": "../TaxDictionary/TaxDictionary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Employee >= 1.0.0",
+      "EmpoyeeFactory >= 1.0.0",
       "System.Runtime.Extensions >= 4.3.1"
     ]
   },
@@ -284,7 +335,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Matt\\source\\repos\\finalProject\\Employee\\Employee.csproj": {
+              "projectPath": "C:\\Users\\Matt\\source\\repos\\finalProject\\Employee\\Employee.csproj"
+            },
+            "C:\\Users\\Matt\\source\\repos\\finalProject\\EmpoyeeFactory\\EmpoyeeFactory.csproj": {
+              "projectPath": "C:\\Users\\Matt\\source\\repos\\finalProject\\EmpoyeeFactory\\EmpoyeeFactory.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
