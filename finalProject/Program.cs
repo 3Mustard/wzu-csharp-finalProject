@@ -25,7 +25,7 @@ namespace finalProject
         static void ContractorPayrollDemo2(Employee[] employees)
         {
             // Sort employees and display the data
-            var sortedEmployees = employees.OrderBy(x => x.TotalIncome).ThenBy(y => y.Tax);
+            var sortedEmployees = employees.OrderBy(x => x.TotalIncome).ThenBy(y => y.IncomeTax());
             DisplayData(sortedEmployees.ToArray());
         }
 

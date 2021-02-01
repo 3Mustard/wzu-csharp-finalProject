@@ -31,7 +31,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Matt\\source\\repos\\finalProject\\TaxDictionary\\TaxDictionary.csproj": {
+                "projectPath": "C:\\Users\\Matt\\source\\repos\\finalProject\\TaxDictionary\\TaxDictionary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

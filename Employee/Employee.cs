@@ -1,4 +1,6 @@
-﻿namespace EmployeeClass
+﻿using TaxDictionary;
+
+namespace EmployeeClass
 {
     // EMPLOYEE CLASS
     public class Employee
@@ -42,6 +44,21 @@
             this.hoursWorked = hoursWorked;
             this.ratePerHour = ratePerHour;
             this.state = state;
+        }
+
+        public double GrossIncome()
+        {
+            return hoursWorked * ratePerHour;
+        }
+
+        public double IncomeTax()
+        {
+            return TaxBracket.TaxBrackets()[this.State];
+        }
+
+        public double NetIncome()
+        {
+            return GrossIncome() - IncomeTax();
         }
     }
 }

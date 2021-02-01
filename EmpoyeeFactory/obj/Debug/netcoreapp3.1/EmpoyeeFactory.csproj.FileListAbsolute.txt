@@ -1,0 +1,14 @@
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\obj\Debug\netcoreapp3.1\EmpoyeeFactory.csprojAssemblyReference.cache
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\obj\Debug\netcoreapp3.1\EmpoyeeFactory.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\obj\Debug\netcoreapp3.1\EmpoyeeFactory.AssemblyInfo.cs
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\obj\Debug\netcoreapp3.1\EmpoyeeFactory.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\bin\Debug\netcoreapp3.1\EmpoyeeFactory.deps.json
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\bin\Debug\netcoreapp3.1\EmpoyeeFactory.dll
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\bin\Debug\netcoreapp3.1\EmpoyeeFactory.pdb
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\bin\Debug\netcoreapp3.1\Employee.dll
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\bin\Debug\netcoreapp3.1\TaxDictionary.dll
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\bin\Debug\netcoreapp3.1\Employee.pdb
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\bin\Debug\netcoreapp3.1\TaxDictionary.pdb
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\obj\Debug\netcoreapp3.1\EmpoyeeFactory.csproj.CopyComplete
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\obj\Debug\netcoreapp3.1\EmpoyeeFactory.dll
+C:\Users\Matt\source\repos\finalProject\EmpoyeeFactory\obj\Debug\netcoreapp3.1\EmpoyeeFactory.pdb

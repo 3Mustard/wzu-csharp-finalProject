@@ -5,7 +5,7 @@ namespace TaxDictionary
 {
     public class TaxBracket
     {
-        public Dictionary<string, double> TaxBrackets() 
+        public static Dictionary<string, double> TaxBrackets() 
         {
             var taxes = new Dictionary<string, double>();
             taxes.Add("AL", GetTaxNum());

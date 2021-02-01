@@ -1,5 +1,6 @@
 ﻿using System;
 using EmployeeClass;
+using TaxDictionary;
 
 namespace EmpoyeeFactory
 {
@@ -20,9 +21,8 @@ namespace EmpoyeeFactory
                 double rate = GetCheckDouble();
                 Console.WriteLine($"Hours worked?: ");
                 double totalHours = GetCheckHours();
-                Console.WriteLine("State work was performed in?: ");
-                string state = Console.ReadLine();
-
+                Console.WriteLine("Enter the state work was performed ('ny, ak, oh'): ");
+                string state = CheckState();
                 // create an employee and add to list of employees
                 Employee employee = new Employee(id, totalHours, rate, state);
                 employees[i] = employee;
@@ -56,6 +56,17 @@ namespace EmpoyeeFactory
             }
 
             return hours;
+        }
+
+        private static string CheckState() 
+        {
+            string state = Console.ReadLine().ToUpper(); 
+            while (state.Length != 2)
+            {
+                Console.WriteLine("Invalid entry, use the format ('ny, ak, oh')");
+                state = CheckState();
+            }
+            return state;
         }
     }
 }

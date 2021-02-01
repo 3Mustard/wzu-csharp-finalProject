@@ -11,6 +11,10 @@ C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\fin
 C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.dll
 C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.pdb
 C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.genruntimeconfig.cache
-C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\TaxBrackets.dll
-C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\TaxBrackets.pdb
 C:\Users\Matt\source\repos\finalProject\finalProject\obj\Debug\netcoreapp3.1\finalProject.csproj.CopyComplete
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\Employee.dll
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\EmpoyeeFactory.dll
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\TaxDictionary.dll
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\Employee.pdb
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\EmpoyeeFactory.pdb
+C:\Users\Matt\source\repos\finalProject\finalProject\bin\Debug\netcoreapp3.1\TaxDictionary.pdb

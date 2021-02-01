@@ -1,0 +1,9 @@
+C:\Users\Matt\source\repos\finalProject\TaxDictionary\bin\Debug\netcoreapp3.1\TaxDictionary.deps.json
+C:\Users\Matt\source\repos\finalProject\TaxDictionary\bin\Debug\netcoreapp3.1\TaxDictionary.dll
+C:\Users\Matt\source\repos\finalProject\TaxDictionary\bin\Debug\netcoreapp3.1\TaxDictionary.pdb
+C:\Users\Matt\source\repos\finalProject\TaxDictionary\obj\Debug\netcoreapp3.1\TaxDictionary.csprojAssemblyReference.cache
+C:\Users\Matt\source\repos\finalProject\TaxDictionary\obj\Debug\netcoreapp3.1\TaxDictionary.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\finalProject\TaxDictionary\obj\Debug\netcoreapp3.1\TaxDictionary.AssemblyInfo.cs
+C:\Users\Matt\source\repos\finalProject\TaxDictionary\obj\Debug\netcoreapp3.1\TaxDictionary.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\finalProject\TaxDictionary\obj\Debug\netcoreapp3.1\TaxDictionary.dll
+C:\Users\Matt\source\repos\finalProject\TaxDictionary\obj\Debug\netcoreapp3.1\TaxDictionary.pdb

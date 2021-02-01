@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EmpoyeeFactory/1.0.0": {
+        "dependencies": {
+          "Employee": "1.0.0",
+          "TaxDictionary": "1.0.0"
+        },
+        "runtime": {
+          "EmpoyeeFactory.dll": {}
+        }
+      },
+      "Employee/1.0.0": {
+        "dependencies": {
+          "TaxDictionary": "1.0.0"
+        },
+        "runtime": {
+          "Employee.dll": {}
+        }
+      },
+      "TaxDictionary/1.0.0": {
+        "runtime": {
+          "TaxDictionary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmpoyeeFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Employee/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaxDictionary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
